@@ -1,0 +1,20 @@
+name: knox_example
+description: An example of the `knox` package
+version: 1.0.0
+homepage: https://github.com/arnemolland/knox
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^3.0.0
+  flutter_bloc: ^3.0.0
+  hydrated_bloc: ^3.0.0
+  knox:
+    path: ../
+
+flutter:
+  uses-material-design: true
