@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 
-/// Implementation of [HydratedStorage] which uses `PathProvider` and `Hive`
-/// to persist and retrieve state changes from the local device.
+/// Implementation of [HydratedStorage] which uses `flutter_secure_storage`
+/// to secure, persist and retrieve state changes from the local device.
 class Knox implements HydratedStorage {
   static Knox _instance;
   final FlutterSecureStorage _storage;

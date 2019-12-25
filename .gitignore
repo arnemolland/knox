@@ -31,4 +31,3 @@
 .pub/
 build/
 .flutter-plugins-dependencies
-*.hive
